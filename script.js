@@ -32,7 +32,7 @@ function startCountdown() {
 function resetCountdown() {
   clearInterval(countdownInterval);
   countdownTime = 300;
-  UpdateText("OOPS someone talked");
+  UpdateText("5:00");
 }
 
 //Check for Space Bar press
