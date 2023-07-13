@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(24, 24, 24);
+    color: azure;
+    font-size: 10vh;
+    font-family: 'Orbitron', sans-serif;
+    line-height: 100vh;       
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden
+}
