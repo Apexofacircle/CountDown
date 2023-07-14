@@ -1,17 +1,23 @@
-let countdownTime;
-let Time_Sec = 0
-let Time_Min = 5
+
+
 // Update onscreen text
 
 function UpdateText(_Text){
-    countdownTime = Time_Sec + Time_Min*60;
+    
     document.getElementById("Clock_Min").innerHTML = _Text.toString();
     return    
 }
 
+let countdownTime;
+let Time_Sec = 0
+let Time_Min = 5
 
+//SetTime
+function SetTime(_Time_Min, _Time_Sec){
+    countdownTime = _Time_Sec + _Time_Min*60;   
+}
 
-
+SetTime(Time_Min, Time_Sec)
 
 // Initialize the countdown timer
 let countdownInterval;
