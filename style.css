@@ -1,10 +1,23 @@
 body{
     background-color: rgb(24, 24, 24);
     color: azure;
-    font-size: 10vh;
-    font-family: 'Orbitron', sans-serif;
-    line-height: 100vh;       
+    
+    font-family: 'Orbitron', sans-serif;    
+    width: 100vw;
     text-align: center;
     vertical-align: middle;
-    overflow: hidden
+    position: relative;
+}
+
+.Clock{
+    font-size: 10vh;
+    line-height: 100vh;   
+}
+
+nav input{
+    background-color: rgb(0, 0, 0);
+    border-style: groove;
+    border-color:rgb(89, 0, 0);
+    border-width: 0.50vh;
+    color: rgb(217, 237, 255);
 }
