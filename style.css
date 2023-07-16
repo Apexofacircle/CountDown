@@ -21,3 +21,7 @@ nav input{
     border-width: 0.50vh;
     color: rgb(217, 237, 255);
 }
+
+.ResetButton{
+    margin-left: 1vw;
+}

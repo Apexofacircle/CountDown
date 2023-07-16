@@ -51,7 +51,7 @@ function startCountdown() {
 // Reset the countdown timer
 function resetCountdown() {
   clearInterval(countdownInterval);
-  countdownTime = parseInt(Time_Min*60) + parseInt(Time_Sec);  //This was giving me grife. 
+  countdownTime = parseInt(Time_Min*60) + parseInt(Time_Sec);  //This was giving me grief. 
 
   
   if(Time_Sec > 9){
