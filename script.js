@@ -53,7 +53,7 @@ function resetCountdown() {
   clearInterval(countdownInterval);
   countdownTime = parseInt(Time_Min*60) + parseInt(Time_Sec);  //This was giving me grief. 
 
-  
+  Time_Min++;
   if(Time_Sec > 9){
     UpdateText(Time_Min + ":" + Time_Sec)
   }
